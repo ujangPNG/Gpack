@@ -6,7 +6,7 @@ C_DEFINES = -DWIN32 -D_WIN32_WINNT=0x0600 -D__USE_MINGW_ANSI_STDIO=1
 
 C_INCLUDES = 
 
-C_FLAGS = -D_GNU_SOURCE  -Wall -Wextra -Wno-documentation-deprecated-sync -Wno-missing-field-initializers -Wmissing-declarations -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wc99-c11-compat -Wno-format -Wno-format-security -g -D_DEBUG -O0 -std=c90
+C_FLAGS = -D_GNU_SOURCE  -Wall -Wextra -Wno-documentation-deprecated-sync -Wno-missing-field-initializers -Wmissing-declarations -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wc99-c11-compat -Wno-format -Wno-format-security -O3 -DNDEBUG -std=c90
 
 # Custom flags: deps/llhttp/CMakeFiles/llhttp.dir/api.c.obj_FLAGS = -Wno-unused-parameter -Wno-missing-declarations
 

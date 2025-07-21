@@ -6,5 +6,5 @@ C_DEFINES = -DSHA1DC_CUSTOM_INCLUDE_SHA1_C=\"git2_util.h\" -DSHA1DC_CUSTOM_INCLU
 
 C_INCLUDES = @CMakeFiles/util.dir/includes_C.rsp
 
-C_FLAGS = -D_GNU_SOURCE  -Wall -Wextra -Wno-documentation-deprecated-sync -Wno-missing-field-initializers -Wmissing-declarations -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wc99-c11-compat -Wno-format -Wno-format-security -g -D_DEBUG -O0 -std=c90
+C_FLAGS = -D_GNU_SOURCE  -Wall -Wextra -Wno-documentation-deprecated-sync -Wno-missing-field-initializers -Wmissing-declarations -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wc99-c11-compat -Wno-format -Wno-format-security -O3 -DNDEBUG -std=c90
 

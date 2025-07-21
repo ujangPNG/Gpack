@@ -15,9 +15,6 @@
 ########################
 
 //No help, variable specified on the command line.
-BUILD_SHARED_LIBS:UNINITIALIZED=ON
-
-//No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:STRING=Debug
 
 //No help, variable specified on the command line.
@@ -25,9 +22,6 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/Asus/Documents/bikin apa kek/gpack/build/CMakeFiles/pkgRedirects
-
-//No help, variable specified on the command line.
-CMAKE_INSTALL_PREFIX:UNINITIALIZED=
 
 //Program used to build from makefiles.
 CMAKE_MAKE_PROGRAM:STRING=nmake

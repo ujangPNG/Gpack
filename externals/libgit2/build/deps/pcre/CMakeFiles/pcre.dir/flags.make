@@ -6,5 +6,5 @@ C_DEFINES = -DHAVE_CONFIG_H -DWIN32 -D_WIN32_WINNT=0x0600 -D__USE_MINGW_ANSI_STD
 
 C_INCLUDES = @CMakeFiles/pcre.dir/includes_C.rsp
 
-C_FLAGS = -D_GNU_SOURCE  -Wall -Wextra -Wno-documentation-deprecated-sync -Wno-missing-field-initializers -Wmissing-declarations -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wc99-c11-compat -Wno-format -Wno-format-security -Wno-unused-function -Wno-implicit-fallthrough -Wno-unused-but-set-variable -g -D_DEBUG -O0 -std=c90
+C_FLAGS = -D_GNU_SOURCE  -Wall -Wextra -Wno-documentation-deprecated-sync -Wno-missing-field-initializers -Wmissing-declarations -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wc99-c11-compat -Wno-format -Wno-format-security -Wno-unused-function -Wno-implicit-fallthrough -Wno-unused-but-set-variable -O3 -DNDEBUG -std=c90
 

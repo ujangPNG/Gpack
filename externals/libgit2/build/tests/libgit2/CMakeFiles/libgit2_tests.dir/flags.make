@@ -6,5 +6,5 @@ C_DEFINES = -DCLAR_FIXTURE_PATH="\"C:/Users/Asus/Documents/bikin apa kek/gpack/e
 
 C_INCLUDES = @CMakeFiles/libgit2_tests.dir/includes_C.rsp
 
-C_FLAGS = -D_GNU_SOURCE  -Wall -Wextra -Wno-documentation-deprecated-sync -Wno-missing-field-initializers -Wmissing-declarations -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wc99-c11-compat -Wno-format -Wno-format-security -g -D_DEBUG -O0 -std=c90 -include clar_suite.h
+C_FLAGS = -D_GNU_SOURCE  -Wall -Wextra -Wno-documentation-deprecated-sync -Wno-missing-field-initializers -Wmissing-declarations -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wunused-const-variable -Wunused-function -Wint-conversion -Wc99-c11-compat -Wno-format -Wno-format-security -O3 -DNDEBUG -std=c90 -include clar_suite.h
 

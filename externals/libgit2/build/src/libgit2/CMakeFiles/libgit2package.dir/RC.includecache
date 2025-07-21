@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Asus/Documents/bikin apa kek/gpack/externals/libgit2/include/git2/common.h
+time.h
+-
+stdlib.h
+-
+stdint.h
+-
+inttypes.h
+-
+netinet/in.h
+-
+
+C:/Users/Asus/Documents/bikin apa kek/gpack/externals/libgit2/include/git2/version.h
+common.h
+C:/Users/Asus/Documents/bikin apa kek/gpack/externals/libgit2/include/git2/common.h
+
+C:/Users/Asus/Documents/bikin apa kek/gpack/externals/libgit2/src/libgit2/git2.rc
+winver.h
+-
+../../include/git2/version.h
+C:/Users/Asus/Documents/bikin apa kek/gpack/externals/libgit2/include/git2/version.h
+

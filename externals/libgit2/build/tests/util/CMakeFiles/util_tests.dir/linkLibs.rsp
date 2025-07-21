@@ -1,0 +1,1 @@
+ -lwinhttp -lrpcrt4 -lcrypt32 -lole32 "C:/Users/Asus/AppData/Local/Microsoft/WinGet/Packages/cURL.cURL_Microsoft.Winget.Source_8wekyb3d8bbwe/curl-8.14.1_2-win64-mingw/lib/libz.a" -lws2_32 -lsecur32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

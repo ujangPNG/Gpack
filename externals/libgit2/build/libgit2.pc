@@ -1,0 +1,11 @@
+prefix=""
+libdir="/lib"
+includedir="/include"
+
+Name: libgit2
+Description: The git library, take 2
+Version: 1.9.1
+Libs: -L${libdir} -lgit2
+Libs.private: -lrpcrt4 -lcrypt32 -lole32 -lws2_32 -lsecur32
+Requires.private: zlib
+Cflags: -I${includedir} 

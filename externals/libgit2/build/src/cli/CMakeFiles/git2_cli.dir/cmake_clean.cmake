@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "../../git2.exe"
+  "../../git2.exe.manifest"
+  "../../git2.pdb"
+  "CMakeFiles/git2_cli.dir/cmd.c.obj"
+  "CMakeFiles/git2_cli.dir/cmd.c.obj.d"
+  "CMakeFiles/git2_cli.dir/cmd_blame.c.obj"
+  "CMakeFiles/git2_cli.dir/cmd_blame.c.obj.d"
+  "CMakeFiles/git2_cli.dir/cmd_cat_file.c.obj"
+  "CMakeFiles/git2_cli.dir/cmd_cat_file.c.obj.d"
+  "CMakeFiles/git2_cli.dir/cmd_clone.c.obj"
+  "CMakeFiles/git2_cli.dir/cmd_clone.c.obj.d"
+  "CMakeFiles/git2_cli.dir/cmd_config.c.obj"
+  "CMakeFiles/git2_cli.dir/cmd_config.c.obj.d"
+  "CMakeFiles/git2_cli.dir/cmd_hash_object.c.obj"
+  "CMakeFiles/git2_cli.dir/cmd_hash_object.c.obj.d"
+  "CMakeFiles/git2_cli.dir/cmd_help.c.obj"
+  "CMakeFiles/git2_cli.dir/cmd_help.c.obj.d"
+  "CMakeFiles/git2_cli.dir/cmd_index_pack.c.obj"
+  "CMakeFiles/git2_cli.dir/cmd_index_pack.c.obj.d"
+  "CMakeFiles/git2_cli.dir/cmd_init.c.obj"
+  "CMakeFiles/git2_cli.dir/cmd_init.c.obj.d"
+  "CMakeFiles/git2_cli.dir/common.c.obj"
+  "CMakeFiles/git2_cli.dir/common.c.obj.d"
+  "CMakeFiles/git2_cli.dir/main.c.obj"
+  "CMakeFiles/git2_cli.dir/main.c.obj.d"
+  "CMakeFiles/git2_cli.dir/opt.c.obj"
+  "CMakeFiles/git2_cli.dir/opt.c.obj.d"
+  "CMakeFiles/git2_cli.dir/opt_usage.c.obj"
+  "CMakeFiles/git2_cli.dir/opt_usage.c.obj.d"
+  "CMakeFiles/git2_cli.dir/progress.c.obj"
+  "CMakeFiles/git2_cli.dir/progress.c.obj.d"
+  "CMakeFiles/git2_cli.dir/win32/precompiled.c.obj"
+  "CMakeFiles/git2_cli.dir/win32/precompiled.c.obj.d"
+  "CMakeFiles/git2_cli.dir/win32/sighandler.c.obj"
+  "CMakeFiles/git2_cli.dir/win32/sighandler.c.obj.d"
+  "libgit2.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/git2_cli.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

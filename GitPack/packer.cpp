@@ -54,7 +54,7 @@ int create_packfile(const std::string& folderPath, const std::string& outputFile
     }
 
     git_signature* sig;
-    if ((error = git_signature_now(&sig, "GitPacker", "gitpacker@example.com")) != 0) {
+    if ((error = git_signature_now(&sig, "GitPacker", "Gpack@github.com")) != 0) {
         std::cerr << "Failed to create signature\n";
         goto cleanup;
     }

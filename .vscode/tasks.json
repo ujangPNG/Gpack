@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build GitPack",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++17",
+        "-I./GitPack",                 // Header path
+        "-I./externals/libgit2/include", // Libgit2 include
+        "GitPack/main.cpp",
+        "GitPack/packer.cpp",
+        "GitPack/unpacker.cpp",
+        "GitPack/utils.cpp",
+        "-L./externals/libgit2/build",   // Libgit2 prebuilt lib path
+        "-lgit2",                        // Link to libgit2
+        "-o",
+        "build/output/gitpack.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

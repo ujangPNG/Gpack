@@ -92,7 +92,21 @@ int create_packfile(const std::string& folderPath, const std::string& outputFile
         goto cleanup_all;
     }
 
-    std::cout << "Successfully created packfile: " << outputFile << "\n";
+    // Append commit OID to the end of the packfile
+    if (error == 0) {
+        char oid_str[GIT_OID_HEXSZ + 1];
+        git_oid_tostr(oid_str, sizeof(oid_str), &commit_oid);
+
+        std::ofstream outfile(outputFile, std::ios::app | std::ios::binary);
+        if (outfile.is_open()) {
+            outfile.write(oid_str, GIT_OID_HEXSZ);
+            outfile.close();
+            std::cout << "Successfully created packfile: " << outputFile << "\n";
+        } else {
+            std::cerr << "Failed to open packfile for appending commit OID\n";
+            error = -1;
+        }
+    }
 
 cleanup_all:
     if (pb) git_packbuilder_free(pb);
